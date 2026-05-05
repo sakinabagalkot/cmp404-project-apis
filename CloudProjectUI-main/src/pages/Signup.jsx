@@ -20,7 +20,7 @@ function Signup({admin, user}) {
   }, [user, navigate])
 
   async function createUser() {
-        const url = 'http://cmp404-users-service-frhqgtcghkhde4ee.austriaeast-01.azurewebsites.net/users'
+        const url = 'https://cmp404-users-service-frhqgtcghkhde4ee.austriaeast-01.azurewebsites.net/users'
         const data = {
             type: admin ? 1 : 0,
             username: username,

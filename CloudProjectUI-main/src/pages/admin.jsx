@@ -1,8 +1,8 @@
 import { useEffect, useMemo, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 
-const COMPLAINTS_API = 'http://cmp404-complaints-service-c2e9f0e2dzcbdpg4.austriaeast-01.azurewebsites.net/complaints'
-const PUBLIC_SERVICES_API = 'http://cmp404-public-service-g5guhradbtf7g7fj.austriaeast-01.azurewebsites.net/publicService'
+const COMPLAINTS_API = 'https://cmp404-complaints-service-c2e9f0e2dzcbdpg4.austriaeast-01.azurewebsites.net/complaints'
+const PUBLIC_SERVICES_API = 'https://cmp404-public-service-g5guhradbtf7g7fj.austriaeast-01.azurewebsites.net/publicService'
 
 const serviceTypes = [
   'Wheelchair ramp',
