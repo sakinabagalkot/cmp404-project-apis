@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function () {
         authOptions: {
             authType: 'subscriptionKey',
             // THIS IS MY SUBSCRIPTION KEY PLEASE BE CAREFUL WITH IT!! (for azure maps)
-            subscriptionKey: 'CT7mBaGOBWqBJzJBtcZCRpR12PlJrx3xCk3wmFX3yG3SomtPu5W4JQQJ99CDAC5RqLJ1MK9iAAAgAZMP1RiB'
+            subscriptionKey: ''
         }
     });
 
